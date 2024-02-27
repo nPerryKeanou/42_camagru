@@ -1,0 +1,21 @@
+Dossier routes:
+
+    - Contient les fichiers javaScript qui définissent les routes Express.
+    - Chaque route doit avoir son propre fichier javaSCript.
+
+    EXEMPLE :
+        dossier routes :
+            fichier index.js :
+                /*
+                
+                    const express = require('express');
+                    const router = express.Router();
+
+                    router.use('/api', require('./api'));
+
+                    module.exports = router;
+                
+                */
+
+    - Ce fichier est placé dans le dossier routers car il définit les routes Express de l'application.
+    

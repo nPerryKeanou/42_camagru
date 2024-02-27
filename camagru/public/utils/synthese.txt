@@ -1,0 +1,19 @@
+Dossier utils :
+
+    - Contient les utilisataires de javaScript qui seront utilisés dans tout le projet.
+    - Par exemple, des fonctions pour formater des heures, des nombres,...
+
+    EXEMPLE :
+        dossier utils   :
+            fichiers formatters.js  :
+                /*
+                
+                    export function formatDate(date){
+                        //anything function
+                    }
+
+                    export function formatNumber(nb){
+                        //anythin function
+                    }
+
+                */

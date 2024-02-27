@@ -1,0 +1,29 @@
+Dossier controlers :
+
+    - Contient les controleurs de l'API.
+    - Chaque controlers doit avoir son propre fichier javaScript.
+
+    EXEMPLE :
+        Dossier controlers    :
+            fichier users.js    :
+                /*
+                
+                    const User = require('..+models/User');
+
+                    const UserController = {
+                        getAll: async (req, res) => {
+                            const users = await User.getAll();
+                            res.json(users);
+                        },
+                        create: async (req, res) => {
+                            const {username, email, password} = req.body;
+                            const user = await User.create(username, email, password);
+                            res.json(user);
+                        }
+                    };
+
+                    module.exports = UserController;
+                
+                */
+
+    - Ce fichier est placé dans le dossier controllers car il contient les controlleurs des points de terminaisons de l'API des utilisateurs.

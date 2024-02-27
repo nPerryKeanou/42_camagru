@@ -1,0 +1,39 @@
+Dossier components:
+
+    - Contient les composants React pour l'interface utilisateur de l'application.
+    - Chaque components doit avoir son dossier contenant :
+            * index.js      : le fichier javascript composant.
+            * style.css     : le fichier css du composant.
+            * index.test.js : le fichier de test du composant.
+    EXEMPLE :
+        dossier components : 
+            fichier  index.js :
+                /*
+                
+                    import React from 'react';
+
+                    
+                    const MyComponents = () => {
+                        return(
+                            <div>
+                                <h1>Ceci est mon composant.</h1>
+                                <p>Ce composant se trouve dans le dossier components.</p>
+                            </div>
+                        );
+                    };
+
+                    
+                    export default MyComponent;
+                
+                */
+
+            fichier style.css :
+                /*
+                
+                    .my-component{
+                        color: red;
+                    }
+                
+                */
+        
+    - Ce composant est placé dans le dossier components car il s'agit d'un composant React pour l'interface utilisateur de l'application.

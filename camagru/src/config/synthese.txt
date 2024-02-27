@@ -1,0 +1,23 @@
+Dossier config :
+
+    - Contient les fichiers de configuration du serveur.
+    - Par exemple, le fichier config.js peut contenrir la configuration de al base de données et du port d'écoute.
+
+    EXEMPLE :
+        dossier config  :
+            fichiers config.js  :
+                /*
+                
+                    module.exports = {
+                        database: {
+                            host: 'locaclhost',
+                            port: 3306,
+                            database: 'myDataBase',
+                            username: 'root',
+                            password: 'password'
+                        },
+                        port: 3000
+                    };
+                
+                */
+    - Ce fichier est placé dans le dossier config car il contient la configutation du serveur, telle que la configutation de la base de données et du port d'écoute.

@@ -1,0 +1,35 @@
+Dossier models :
+
+    - Contient les modèles de bases de données de SQLite3.
+    - Chaque modèle doit avoir son fichier javaScript.
+
+    EXEMPLE :
+        dossier models  :
+            fichier user.js :
+                /*
+                
+                    const sqlite3 = require('sqlite3');
+
+                    class User {
+                        constructor(id, username, email, password){
+                            this.id = id;
+                            this.username = username;
+                            this.email = email;
+                            this.password = password;
+                        }
+
+                        static async getAll(){
+                            //Fonction pour obtenir tout les utilisateurs d'une base de données.
+                        }
+
+                        static async create(username, email, pasword){
+                            //Fonction pour créer une nouvel utilisateur dans la base de données.
+                        }
+                    }
+
+                    module.exports = User;
+
+                */
+
+    - Ce fichier est dans le dossier models car il représente le modèle de données pour utilisateur.
+    

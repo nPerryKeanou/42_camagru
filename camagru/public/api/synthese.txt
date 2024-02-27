@@ -1,0 +1,25 @@
+Dossier API :
+
+    - Contient les fichiers javaScript qui définissent les points de terminaison de l'API Express.
+    - Chaque point de terminaison doit avoir son propre fichier javaScritp.
+
+    EXEMPLE :
+        dossier api :   
+            fichier user.js :
+                /*
+                
+                    const router = require('express').routeur();
+
+                    router.get('/', (req, res) => {
+                        //Obtenir tout les utilisateurs de la base de données.
+                    });
+
+                    router.post('/', (req, res) => {
+                        //Créer un nouvel utilisateur dans la base de données. 
+                    });
+
+                    module.exports = router;
+                
+                */
+
+    - Ce fichier est placé dans le dossier APi car il défini les points de terminaison de l'APi de l'utilisateur.

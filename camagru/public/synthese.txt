@@ -1,0 +1,30 @@
+Dossier Public :
+    - React :
+    
+        Commencer par le front-end de votre application eb en React vous permettra de visualiser l'interface
+        utilisateur et de tester son ergonomie avant de vous attaquer au back-end.
+    
+        voici quelques conseils pour vous aider à démarrer :
+
+    1. Définir l'architecturede votre application :
+        * Déterminez les différentes pages et les fonctionnalités de votre application.
+        * Créez un plan de navigation clair et intuitif.
+        * Définissez les composants React que vous allez utiliser pour chaque page.
+
+    2. Choisir une bibliothèque UI :
+        * une bibliothèque UI :peut vous fournir des composants pré-construit et personnalisables pour votre application.
+        * Des bibliothèque populaire comme Material UI, Boostrap ou Ant Design peuvent vous faire gagner du temps et de l'énergie.
+
+    3. Développer vos pages web :
+        * Utilisez le langage JSX pour créer vos interfaces utilisateurs.
+        * Implémentez la logique métier de votre application dans les composants React.
+        * testez et affinez vos pages web pour garantir une expérience utilisateur optimal.
+
+    4. Intégrer le back-end :
+        * Une fois que vos pages web sont prêtes, vous pouvez commencer à développer le bac-end de votre applcication.
+        * utilisez Node.js et une base de données pour stocker et gérer vos données.
+        * Définissez les API pour intéragir avec vos données depuis le front-end.
+    
+    5. Déployer votre application :
+        * Vous pouvez déployer votre application sur un serveur web ou utiliser une plateforme de service cloud comme Heroku ou Netflify.
+

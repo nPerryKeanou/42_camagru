@@ -28,7 +28,19 @@ import NotFound from './components/notfound/Notfound.js';
 
 
 const App = () => {
-
+    <BrowserRouteur>
+        <Switch>
+            <Route exact path="/" Component={Home}/>
+            <Route path="/Inscription" Component={Inscription}/>
+            <Route path="/Connexion" Component={Connexion}/>
+            <Route path="/Workspace" Component={Workspace}/>
+            <Route path="/Mygallery" Component={Mygallery}/>
+            <Route path="/Usersgallery" Component={Usersgallery}/>
+            <Route path="/Contact" Component={Contact}/>
+            <Route path="/parameters" Component={Parameters}/>
+            <Route Component={NotFound}/>
+        </Switch>
+    </BrowserRouteur>
 };
 
 export default App;

@@ -1,7 +1,7 @@
 Dossier Public :
     - React :
     
-        Commencer par le front-end de votre application eb en React vous permettra de visualiser l'interface
+        Commencer par le front-end de votre application web en React vous permettra de visualiser l'interface
         utilisateur et de tester son ergonomie avant de vous attaquer au back-end.
     
         voici quelques conseils pour vous aider à démarrer :
@@ -9,6 +9,126 @@ Dossier Public :
     1. Définir l'architecturede votre application :
         * Déterminez les différentes pages et les fonctionnalités de votre application.
         * Créez un plan de navigation clair et intuitif.
+            - Pages :   Home page.
+                            |
+                            | - - - - - - - - -inscription. - - -
+                            |                                    |
+                            |                                Email Validation. - - - - -                     
+                            |                                                           |                    |My galery image solo ou plusieurs image
+                            |                                                           workspace - - - - - -|Users galery
+                            |                                                           |                    |Parameters
+                            | - - - - - - - - -Connexion.- - - - - - - - - - - - - - - -               
+
+
+
+
+
+            - Home page :
+                1 : title.
+                2 : navigation (connexion / inscritption).
+                3 : frame video / webcam.
+                4 : footer avec les logo au piff.
+
+            - inscription : 
+                1 : title.
+                2 : navigation (connexion).
+                3 : formulaire.
+                    3.2 : pseudo
+                    3.3 : email
+                    3.4 : email confirm
+                    3.5 : password
+                    3.6 : password confirm
+                    3.7 : boutton confirm
+                4 : footer.
+
+            - connexion :
+                1 : title.
+                2 : navigation (inscription).
+                3 : formulaire.
+                    3.2 : identifiant
+                    3.3 : password
+                    3.4 : button confirm
+                4 : lien pour identifiant ou mot de passe oublié.
+                5 : footer.
+
+
+            - email validation :
+                1 : title.
+                2 : navigation (worspace/my galery/users galery/sign out).
+                3 : paragraphe, pour confirmation d'adresse email.
+                4 : button de validation.
+                5 : footer.
+
+            - worspace : 
+                1 : title.
+                2 : navigation (worspace/users galery/sign out).
+                3 : frame (video/webcam).
+                4 : liste d'image supperposable.
+                5 : listes des 5 dernières photos.
+                6 : footer.
+
+            - my galery :
+                image solo :
+                    1 : title.
+                    2 : navigation (worspace/users galery/sign out).
+                    3 : button de suppression de l'image.
+                    4 : button de changement de changement de galery pour solo image ou plusieurs images.
+                    5 : frame (video/webcam).
+                    6 : boutton like/dislike.
+                    7 : commentaire.
+                    8 : footer.
+                plusieurs images :
+                    1 : title.
+                    2 : navigation (worspace/users galery/sign out).
+                    3 : button de changement de changement de galery pour solo image ou plusieurs images.
+                    4 : frame (video/webcam).
+                    5 : boutton like/dislike.
+                    6 : footer.
+
+            - users galery :
+                image solo :
+                    1 : title.
+                    2 : navigation (worspace/users galery/sign out).
+                    3 : button de changement de changement de galery pour solo image ou plusieurs images.
+                    4 : frame (video/webcam).
+                    5 : boutton like/dislike.
+                    6 : commentaire.
+                    7 : footer.
+                plusieurs images :
+                    1 : title.
+                    2 : navigation (worspace/users galery/sign out).
+                    3 : button de changement de changement de galery pour solo image ou plusieurs images.
+                    4 : frame (video/webcam).
+                    5 : boutton like/dislike.
+                    6 : footer.
+
+            - parameters : 
+                    1 : title.
+                    2 : navigation (worspace/users galery/sign out).
+                    3 : paragraphe email
+                    4 : formulaire change email
+                        4.2 : paragraphe anceint email
+                        4.3 : input ancient email
+                        4.4 : mdp
+                        4.5 : button confirm
+                    5 : paragraphe change password.
+                    6 : formulaire password
+                        6.2 : paragraphe password
+                        6.3 : input new password
+                        6.4 : paragraphe ancient password
+                        6.5 : button confirm
+                    7 : paragraphe change them.
+                        7.2 : button change theme dark.
+                        7.3 : buuton change theme ligth.
+                    8 : lien deconnexion.
+                    9 : footer.
+
+
+            COMPONENTS :
+                - header,
+                - footer,
+                - galery
+
         * Définissez les composants React que vous allez utiliser pour chaque page.
 
     2. Choisir une bibliothèque UI :

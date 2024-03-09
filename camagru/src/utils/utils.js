@@ -1,4 +1,4 @@
-// //document.addEventListener('DOMContentLoaded', startWebcam);
+// document.addEventListener('DOMContentLoaded', startWebcam);
 // function startWebcam(){
 //     const video = document.getElementById('webcam');
 //     const startWebcamButton = document.getElementById('startWebcam');
